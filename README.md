@@ -1,37 +1,61 @@
 # HalideZoon
 
-#### 介绍
-halide demo for learning
+halide demo for learning.
 
-#### 软件架构
-软件架构说明
+## Demo List
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+| Index | Name              |
+| ---   | ---               |
+| 001   | work with opencv  |
 
 
-#### 特技
+official tutorial
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+| Official Tutorial             |
+|---                            |
+| lesson_01_basic               |
+| lesson_02_input_image         |
+| lesson_03_debugging_1         |
+| lesson_04_debugging_2         |
+| lesson_05_scheduling_1        |
+| lesson_06_realizing_over_shifted_domains |
+| lesson_07_multi_stage_pipelines |
+| lesson_08_scheduling_2        |
+| lesson_09_update_definitions  |
+| lesson_10_aot_compilation_generate |
+| lesson_10_aot_compilation_run |
+| lesson_11_cross_compilation   |
+| lesson_12_using_the_gpu       |
+| lesson_13_tuples              |
+| lesson_14_types               |
+| lesson_15_generators          |
+| lesson_16_rgb_generate        |
+| lesson_16_rgb_run             |
+| lesson_17_predicated_rdom     |
+| lesson_18_parallel_associative_reductions |
+| lesson_19_wrapper_funcs       |
+| lesson_20_cloning_funcs       |
+| lesson_21_auto_scheduler_generate |
+| lesson_21_auto_scheduler_run  |
+
+## Setup
+
+Halide zoon need [halide](https://github.com/Halide/Halide) and [opencv](https://opencv.org) support. Make sure halide and opencv has been installed.
+
+Our project is easy to build on windows\linux\macos, just:
+```
+cd Halide-Zoon
+mkdir build
+cmake ..
+```
+In windows, we can open project in build directory.
+
+In Linux, we can directly make target in buld directory.
+
+Personaly, I dont have mac, but I think the configuration are quitly esay.
+
+## TODO
+
+## About
+
+[P-Chao](http://www.p-chao.com), mail to: deeplearning@vip.qq.com
